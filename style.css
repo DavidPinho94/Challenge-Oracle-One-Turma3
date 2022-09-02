@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    font-size: 14px;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% minmax(400px, 60%) minmax(320px, 30%);
+}
+
+section{
+    height: 100%;
+    padding: 10px;
+}
+
+/*CONTAINER 1*/
+.container1{
+    padding: 10;
+}
+
+/*CONTAINER 2*/
+.container2{
+    width: 100%;
+    height: 100%;
+}
+
+.container2 textarea{
+    width: 100%;
+    height: calc(100% - 160px);
+    border: none;
+    resize: none;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 24px;
+}
+
+.container2 textarea:focus{
+    outline: none;
+}
+
+.alt{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #808080;
+}
+
+.button2{
+    display: grid;
+    grid-template-columns: auto 20px auto;
+    width: 100%;
+    min-width: 400px;
+    height: 80px;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.encriptar{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: darkblue;
+    margin: auto;
+    font-size: 18px;
+}
+
+.descriptar{
+    width: 100%;
+    height: 100%;
+    border: solid 1px darkblue;
+    border-radius: 15px;
+    color: darkblue;
+    background-color: white;
+    margin: auto;
+    font-size: 18px;
+}
+
+.spaço{
+    height: 50px;
+}
+
+
+
+/*CONTAINER 3*/
+.container3{
+    padding:10px;
+    min-width: 320px;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.msg{
+    min-height: calc(500px - 60px);
+    height: calc(100% - 60px);
+    position: relative;
+    padding: 20px 0px 20px 0px;
+}
+
+.msg div{
+    height: 100%;
+    padding: 60px 30px;
+    position: absolute;
+}
+
+.msg img{
+    width: 100%;
+}
+
+.msg textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    resize: none;
+    padding: 20px;
+    font-size: 18px;
+    color: grey;
+}
+.msg textarea:focus{
+    outline: none;
+}
+
+.button{
+    height: 60px;
+}
+
+.button button{
+    width: 100%;
+    height: 100%;
+    border: solid 1px darkblue;
+    border-radius: 15px;
+    color: darkblue;
+    background-color: white;
+    font-size: 18px;
+}
